@@ -47,6 +47,9 @@ ul li {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.our-adress {
+  font-style: normal;
+}
 .adress-link:hover,
 .adress-link:focus {
   color: #404bbf;
@@ -54,7 +57,7 @@ ul li {
 .hero-section {
   background: #2e2f42;
 }
-h1 {
+.main-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -73,7 +76,8 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   color: #404bbf;
 }
 .section-title {
@@ -151,5 +155,14 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #f4f4fd;
+}
+.footer-logo-span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
