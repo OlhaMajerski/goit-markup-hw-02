@@ -11,7 +11,7 @@ ul li {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -20,7 +20,7 @@ ul li {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -40,6 +40,12 @@ ul li {
 .adress-link {
   color: #434455;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -57,13 +63,28 @@ h1 {
   text-align: center;
   color: #fff;
 }
-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.btn {
   background: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
-button:hover {
+.btn:hover {
   color: #404bbf;
+}
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 .about-title {
   font-family: "Roboto", sans-serif;
