@@ -111,6 +111,9 @@ ul li {
 .team-section {
   background-color: #f4f4fd;
 }
+.team-card {
+  background-color: #ffffff;
+}
 .team-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
